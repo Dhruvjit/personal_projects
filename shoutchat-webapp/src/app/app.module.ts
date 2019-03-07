@@ -9,6 +9,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { PrivateChatWindowComponent } from './private-chat-window/private-chat-window.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +18,15 @@ import {MatIconModule} from '@angular/material/icon';
     NamesListComponent,
     ChatWindowComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    PrivateChatWindowComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatCardModule,
-    MatIconModule
+    MatIconModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
