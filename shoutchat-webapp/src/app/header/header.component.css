@@ -4,8 +4,12 @@
     flex: 1 0 auto;    
 }
 
+.red-heart {
+    color: red;
+}
+
 .btn{
-    margin: 5px;
+    margin: 0px;
 }
 
 .mat-toolbar {

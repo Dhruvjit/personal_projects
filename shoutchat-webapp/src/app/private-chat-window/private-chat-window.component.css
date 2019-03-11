@@ -1,0 +1,20 @@
+.material-icons.md-36 { font-size: 36px; color:blueviolet; padding-right: 0.5%}
+
+.material-icons.red-heart { color:red; padding-right: 5%;}
+
+.example-fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 0 auto;    
+}
+
+.person-name {
+    color: blueviolet;
+    padding-left: 2%;
+}
+.chatarea{
+    height: 70%;
+    border-style: solid;
+    border-width: thin;
+    border-color: gainsboro;
+}

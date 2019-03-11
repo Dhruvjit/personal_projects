@@ -1,8 +1,22 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <app-header></app-header>
 
-<h1>dhruvjit</h1>
+<div class="container-fluid">
+    <div class="row">
 
-<app-names-list></app-names-list>
+      <div class="col-sm">
+        <app-names-list></app-names-list>
+      </div>
+      
+      <div class="col-lg">
+        <app-private-chat-window></app-private-chat-window>
+      </div>
+      
+      <div class="col-lg">
+        <app-chat-window></app-chat-window>
+      </div>
+
+    </div>
+</div>
 
 <router-outlet></router-outlet>

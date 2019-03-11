@@ -1,3 +1,24 @@
-<p>
-  private-chat-window works!
-</p>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+<mat-toolbar md-scroll-shrink>
+  
+  <button type="button" class="btn group-add btn-light"><i class="material-icons md-36 red-heart"> favorite </i></button>
+
+  <div class="person-name">Person's Name</div>
+
+  <!-- This fills the remaining space of the current row -->
+  <span class="example-fill-remaining-space"></span>
+
+  <button type="button" class="btn group-add btn-light"><i class="material-icons md-36"> close </i></button>
+
+</mat-toolbar>
+
+<div class="chatarea">
+
+</div>
+
+<div class="input-group">
+    <textarea class="form-control custom-control" rows="3" style="resize:none"></textarea>     
+    <span class="input-group-addon btn btn-success">Send</span>
+</div>

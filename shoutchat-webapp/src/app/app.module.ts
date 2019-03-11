@@ -11,6 +11,10 @@ import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { PrivateChatWindowComponent } from './private-chat-window/private-chat-window.component';
+import { MatFormFieldModule } from '@angular/material';
+import { MatInputModule } from '@angular/material';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSelectModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -25,8 +29,12 @@ import { PrivateChatWindowComponent } from './private-chat-window/private-chat-w
     BrowserModule,
     AppRoutingModule,
     MatCardModule,
-    MatIconModule,
-    MatToolbarModule
+    MatIconModule, 
+    MatToolbarModule,
+    MatFormFieldModule,
+    MatInputModule,
+    BrowserAnimationsModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
