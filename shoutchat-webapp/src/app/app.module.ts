@@ -15,6 +15,8 @@ import { MatFormFieldModule } from '@angular/material';
 import { MatInputModule } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSelectModule} from '@angular/material';
+import { MessageListComponent } from './message-list/message-list.component';
+import { MessageItemComponent } from './message-item/message-item.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { MatSelectModule} from '@angular/material';
     ChatWindowComponent,
     HeaderComponent,
     FooterComponent,
-    PrivateChatWindowComponent
+    PrivateChatWindowComponent,
+    MessageListComponent,
+    MessageItemComponent
   ],
   imports: [
     BrowserModule,
